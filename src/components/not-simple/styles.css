@@ -1,0 +1,15 @@
+  .mySwiper .swiper-slide {
+    opacity: 0.4;
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    min-height: 0;
+    min-width: 0;
+  }

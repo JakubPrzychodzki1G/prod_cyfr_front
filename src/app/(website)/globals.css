@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet{
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+    display: inline-block;
+    color: aliceblue;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+    height: 16px !important;
+    width: 16px !important;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;    
+}
+
+.fc-toolbar-title{
+    font-size: 1.3em !important;
+    font-weight: 600;
+}
+
+.off-screen{
+    opacity: 0;
+}
